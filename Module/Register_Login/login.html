@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/login_register.css">
+    <script type="text/javascript" src="JS/login.js"></script>
+    <title>Login</title>
+</head>
+
+<body class="gray-bg">
+    <div class="middle-box">
+        <div>
+            <div>
+                <h1 class="logo-name">Register</h1>
+            </div>
+            <span>
+                <a href="register.html">注册</a>
+                <a class="active" href="login.html">登录</a>
+            </span>
+            <form id="form" name="form" method="post" action="" autocomplete="off">
+                <div class="form-group">
+                    <label>账 号：</label>
+                    <input name="username" id="username" type="text" class="form-control" placeholder="用户名">
+                </div>
+                <div class="form-group">
+                    <label>密 码：</label>
+                    <input name="password" id="password" type="password" class="form-control" placeholder="密码">
+                </div>
+                <!--滑块-->
+                <div class="form-group">
+                    <div class="drag-out">
+                        <span>按住滑块，拖动到最右侧</span>
+                        <div class="drag-area">》</div>
+                        <div class="drag-code"></div>
+                    </div>
+                </div>
+                <button type="submit" id="login" class="btn-primary">登 录</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
